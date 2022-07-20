@@ -4,25 +4,25 @@ public class TestMaximum {
 	
 	public static void main(String[] args) {
 		
-		Float num1 = 4.4F; 
-		Float num2 = 5.5F; 
-		Float num3 = 9.9F;
-		Float result = TextMaximum(num1,num2,num3);
-		System.out.println(result);
+		String name1 = "Sachin Chouksey"; 
+		String name2 = "Anil kumar"; 
+		String name3 = "Karan kumar";
+		String result = TextMaximum(name1,name2,name3);
+		System.out.println("Max String is ---> " + result);
 		
 	}
-	public static Float TextMaximum(Float number1, Float number2 , Float number3) 
+	public static String TextMaximum(String name1, String name2 , String name3) 
 	{
-		Float maxNumber = number1;
+		String maxString = name1;
 		
-		if (number2.compareTo(maxNumber)>0)
+		if (name2.compareTo(maxString)>0)
 		{	
-			 maxNumber = number2;
+			maxString = name2;
 		}
-		if (number3.compareTo(maxNumber)>0)
+		if (name3.compareTo(maxString)>0)
 		{
-			maxNumber = number3;
+			maxString = name3;
 		}
-		return maxNumber;
+		return maxString;
 	}
 }
