@@ -12,16 +12,16 @@ public class TestMaximum {
 		System.out.println(result);
 		
 	}
-	public static Integer TextMaximum(Integer n1, Integer n2 , Integer n3) {
+	public static Integer TextMaximum(Integer number1, Integer number2 , Integer number3) {
 		
-		Integer maxNumber = n1;
+		Integer maxNumber = number1;
 		
-		if (n2.compareTo(maxNumber)>0) {
+		if (number2.compareTo(maxNumber)>0) {
 			
-			 maxNumber = n2;
+			 maxNumber = number2;
 		}
-		if (n3.compareTo(maxNumber)>0) {
-			maxNumber = n3;
+		if (number3.compareTo(maxNumber)>0) {
+			maxNumber = number3;
 		}
 		return maxNumber;
 	}
